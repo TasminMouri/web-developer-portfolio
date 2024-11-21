@@ -141,3 +141,25 @@
     font-size: 16px;
     color: #757575;
  }
+
+ /* resume section styles */
+.resume-container{
+  display: flex;
+  gap: 20px;
+}
+.resume-column-title, .experience-title{
+  color: #474747;
+}
+.experience-sub-title, .experience-description{
+  color: #757575;
+}
+.experience-description{
+  font-size: 12px;
+}
+hr{
+  margin-top: 30px;
+}
+.resume-download-button{
+  text-align: center;
+  margin-top: 40px;
+}
