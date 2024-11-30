@@ -163,3 +163,21 @@ hr{
   text-align: center;
   margin-top: 40px;
 }
+
+/* footer styles */
+footer{
+  display: flex;
+  gap: 100px;
+  padding: 100px 200px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 60px;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  border: none;
+}
